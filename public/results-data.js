@@ -1,4 +1,9 @@
 window.TOURNAMENT_RESULTS={
+  'A-U1-3':{
+    winner:'FURIA',
+    loser:'FaZe Clan',
+    scores:{'FURIA':2,'FaZe Clan':1}
+  },
   'B-U1-2':{
     winner:'BetBoom Team',
     loser:'9z Globant',
