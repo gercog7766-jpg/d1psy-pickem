@@ -44,6 +44,11 @@ window.TOURNAMENT_RESULTS={
     loser:'BetBoom Team',
     scores:{'MOUZ':2,'BetBoom Team':0}
   },
+  'B-U2-2':{
+    winner:'PARIVISION',
+    loser:'Team Liquid',
+    scores:{'Team Liquid':0,'PARIVISION':2}
+  },
   'B-L1-1':{
     winner:'TYLOO',
     loser:'9z Globant',
