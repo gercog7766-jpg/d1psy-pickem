@@ -19,6 +19,11 @@ window.TOURNAMENT_RESULTS={
     loser:'Team Falcons',
     scores:{'Natus Vincere':2,'Team Falcons':0}
   },
+  'A-L1-2':{
+    winner:'Team Falcons',
+    loser:'FaZe Clan',
+    scores:{'FaZe Clan':1,'Team Falcons':2}
+  },
   'B-U1-1':{
     winner:'MOUZ',
     loser:'TYLOO',
