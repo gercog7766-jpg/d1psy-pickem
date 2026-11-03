@@ -29,6 +29,11 @@ window.TOURNAMENT_RESULTS={
     loser:'Natus Vincere',
     scores:{'Natus Vincere':1,'FURIA':2}
   },
+  'A-L1-1':{
+    winner:'B8 ESPORTS',
+    loser:'Legacy',
+    scores:{'B8 ESPORTS':2,'Legacy':1}
+  },
   'A-L1-2':{
     winner:'Team Falcons',
     loser:'FaZe Clan',
