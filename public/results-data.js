@@ -24,6 +24,11 @@ window.TOURNAMENT_RESULTS={
     loser:'HEROIC',
     scores:{'The MongolZ':2,'HEROIC':0}
   },
+  'A-U2-2':{
+    winner:'FURIA',
+    loser:'Natus Vincere',
+    scores:{'Natus Vincere':1,'FURIA':2}
+  },
   'A-L1-2':{
     winner:'Team Falcons',
     loser:'FaZe Clan',
