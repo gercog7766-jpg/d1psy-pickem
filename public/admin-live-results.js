@@ -6,7 +6,7 @@ groupMatches=function(x,g){
   const u11=pair(t[0],t[1]),u12=pair(t[2],t[3]),u13=pair(t[4],t[5]),u14=pair(t[6],t[7]);
   const u21=pair(actual('U1-1'),actual('U1-2')),u22=pair(actual('U1-3'),actual('U1-4'));
   const l11=pair(loser(actual('U1-1'),...u11),loser(actual('U1-2'),...u12)),l12=pair(loser(actual('U1-3'),...u13),loser(actual('U1-4'),...u14));
-  const l21=pair(actual('L1-1'),loser(actual('U2-1'),...u21)),l22=pair(actual('L1-2'),loser(actual('U2-2'),...u22));
+  const l21=pair(actual('L1-1'),loser(actual('U2-2'),...u22)),l22=pair(actual('L1-2'),loser(actual('U2-1'),...u21));
   const defs=[['U1-1',u11],['U1-2',u12],['U1-3',u13],['U1-4',u14],['U2-1',u21],['U2-2',u22],['U3-1',pair(actual('U2-1'),actual('U2-2'))],['L1-1',l11],['L1-2',l12],['L2-1',l21],['L2-2',l22],['L3-1',pair(actual('L2-1'),actual('L2-2'))]];
   return defs.map(([id,p])=>({id,key:`${g}-${id}`,p,w:pred(id)}));
 };
