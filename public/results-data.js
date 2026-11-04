@@ -108,5 +108,10 @@ window.TOURNAMENT_RESULTS={
     winner:'MOUZ',
     loser:'PARIVISION',
     scores:{'MOUZ':2,'PARIVISION':0}
+  },
+  'A-U3-1':{
+    winner:'The MongolZ',
+    loser:'FURIA',
+    scores:{'The MongolZ':2,'FURIA':1}
   }
 };
