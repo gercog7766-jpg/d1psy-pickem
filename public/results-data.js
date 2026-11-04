@@ -79,4 +79,24 @@ window.TOURNAMENT_RESULTS={
     loser:'G2 Esports',
     scores:{'Aurora Gaming':2,'G2 Esports':1}
   }
+  'A-L2-1':{
+    winner:'Natus Vincere',
+    loser:'B8 ESPORTS',
+    scores:{'Natus Vincere':2,'B8 ESPORTS':0}
+  },
+  'A-L2-2':{
+    winner:'Team Falcons',
+    loser:'HEROIC',
+    scores:{'Team Falcons':2,'HEROIC':0}
+  },
+  'B-L2-1':{
+    winner:'Team Liquid',
+    loser:'TYLOO',
+    scores:{'Team Liquid':2,'TYLOO':0}
+  },
+  'B-L2-2':{
+    winner:'BetBoom Team',
+    loser:'Aurora Gaming',
+    scores:{'BetBoom Team':2,'Aurora Gaming':0}
+  },
 };
