@@ -113,5 +113,10 @@ window.TOURNAMENT_RESULTS={
     winner:'The MongolZ',
     loser:'FURIA',
     scores:{'The MongolZ':2,'FURIA':1}
+  },
+  'A-L3-1':{
+    winner:'Natus Vincere',
+    loser:'Team Falcons',
+    scores:{'Natus Vincere':2,'Team Falcons':1}
   }
 };
