@@ -99,4 +99,14 @@ window.TOURNAMENT_RESULTS={
     loser:'Aurora Gaming',
     scores:{'BetBoom Team':2,'Aurora Gaming':0}
   },
+  'B-L3-1':{
+    winner:'BetBoom Team',
+    loser:'Team Liquid',
+    scores:{'BetBoom Team':2,'Team Liquid':1}
+  },
+  'B-U3-1':{
+    winner:'MOUZ',
+    loser:'PARIVISION',
+    scores:{'MOUZ':2,'PARIVISION':0}
+  }
 };
