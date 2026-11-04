@@ -78,7 +78,7 @@ window.TOURNAMENT_RESULTS={
     winner:'Aurora Gaming',
     loser:'G2 Esports',
     scores:{'Aurora Gaming':2,'G2 Esports':1}
-  }
+  },
   'A-L2-1':{
     winner:'Natus Vincere',
     loser:'B8 ESPORTS',
