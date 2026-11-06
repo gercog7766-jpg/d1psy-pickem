@@ -118,5 +118,10 @@ window.TOURNAMENT_RESULTS={
     winner:'Natus Vincere',
     loser:'Team Falcons',
     scores:{'Natus Vincere':2,'Team Falcons':1}
+  },
+  'P-QF-2':{
+    winner:'Natus Vincere',
+    loser:'PARIVISION',
+    scores:{'Natus Vincere':2,'PARIVISION':1}
   }
 };
