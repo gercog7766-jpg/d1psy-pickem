@@ -10,6 +10,22 @@ groupMatches=function(x,g){
   const defs=[['U1-1',u11],['U1-2',u12],['U1-3',u13],['U1-4',u14],['U2-1',u21],['U2-2',u22],['U3-1',pair(actual('U2-1'),actual('U2-2'))],['L1-1',l11],['L1-2',l12],['L2-1',l21],['L2-2',l22],['L3-1',pair(actual('L2-1'),actual('L2-2'))]];
   return defs.map(([id,p])=>({id,key:`${g}-${id}`,p,w:pred(id)}));
 };
+const originalPlayoffMatches=playoffMatches;
+playoffMatches=function(x){
+  const actual=id=>results[id]?.winner||x[id];
+  const upperLoser=(g)=>{
+    const a=actual(g+'-U2-1'),b=actual(g+'-U2-2'),w=actual(g+'-U3-1');
+    return w&&a&&b?(w===a?b:w===b?a:null):null;
+  };
+  const a1=actual('A-U3-1'),b1=actual('B-U3-1'),a2=actual('A-L3-1'),b2=actual('B-L3-1');
+  return [
+    {id:'QF-1',key:'P-QF-1',p:pair(b2,upperLoser('A'))},
+    {id:'QF-2',key:'P-QF-2',p:pair(a2,upperLoser('B'))},
+    {id:'SF-1',key:'P-SF-1',p:pair(a1,actual('P-QF-1'))},
+    {id:'SF-2',key:'P-SF-2',p:pair(b1,actual('P-QF-2'))},
+    {id:'F-1',key:'P-F-1',p:pair(actual('P-SF-1'),actual('P-SF-2'))}
+  ].map(m=>({...m,w:x[m.key]}));
+};
 const originalMatchCard=matchCard;
 matchCard=function(m){
   const r=results[m.key];if(!r)return originalMatchCard(m);
